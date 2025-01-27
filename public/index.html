@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <!-- Import FontAwesome from library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Import output CSS StyleSheet for tailwindcss -->
     <link rel="stylesheet" href="/src/output.css">
 
-    <title>Document</title>
+    <!-- Import CSS StyleSheet -->
+    <link rel="stylesheet" href="/public/styles/index-style.css">
+
+    <title>Home</title>
 </head>
 <body>
+
+    <!-- Import header module from /public/modules/header.html -->
+    <header></header>
     
+    <!-- Main content -->
+    <main>
+
+    </main>
+
+    <!-- Import footer module from /public/modules/footer.html -->
+    <footer></footer>
+    
+    <!-- Import script -->
+    <script src="/public/scripts/index-script.js"></script>
+    
+    <!-- Import Jquery to add pre-made header and footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("header").load("/public/modules/header.html");
+            $("footer").load("/public/modules/footer.html");
+        });
+    </script>
 </body>
 </html>
