@@ -1428,14 +1428,11 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-blue-200 {
-    background-color: var(--color-blue-200);
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
   }
-  .bg-pink-200 {
-    background-color: var(--color-pink-200);
-  }
-  .bg-red-200 {
-    background-color: var(--color-red-200);
+  .bg-red-100 {
+    background-color: var(--color-red-100);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1445,6 +1442,9 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
+  }
+  .bg-red-900 {
+    background-color: var(--color-red-900);
   }
   .-bg-conic {
     --tw-gradient-position: in oklab,;
