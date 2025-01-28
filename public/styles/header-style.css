@@ -3,6 +3,8 @@
 * {
     user-select: none;
     -webkit-user-select: none;
+
+    font-family: "Pixelify Sans", serif;
 }
 
 .header-container {
@@ -18,7 +20,6 @@
 .portfolio-title {
     height: 5rem;
 
-    font-family: "Pixelify Sans", serif;
     font-size: 2.5rem;
     font-weight: 700;
 
@@ -65,8 +66,6 @@
     outline: none;
     border-radius: 12px;
 
-    font-family: "Pixelify Sans", serif;
-
     transition: all 0.5s ease;
 }
 
@@ -93,6 +92,8 @@
 
         box-shadow: none;
         text-align: center;
+
+        background-color: #f0f0f0;
     }
 
     .portfolio-title {

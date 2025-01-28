@@ -6,7 +6,7 @@ const searchInput = document.querySelector('.search-input');
 const searchEnter = document.querySelector('.search-enter');
 
 // Declare the titles deck shuffle
-let titles = ["portfolio", "projects!", "touch_grass.", 'another late night of coding...'];
+let titles = ["portfolio", "projects!", "touch_grass83.", "another late night of coding..."];
 let currentTitle = 0;
 
 // Add the event listener to the search enter and exit button
