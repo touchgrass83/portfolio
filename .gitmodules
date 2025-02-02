@@ -1,6 +1,3 @@
-[submodule "HTML-Projects"]
-	path = HTML-Projects
-	url = https://github.com/touchgrass83/HTML-Projects.git
 [submodule "public/HTML-Projects"]
 	path = public/HTML-Projects
 	url = https://github.com/touchgrass83/HTML-Projects.git
