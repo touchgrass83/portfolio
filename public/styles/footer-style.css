@@ -70,6 +70,9 @@
 .footer-rights {
     width: 100vw;
 
+    display: flex;
+    justify-content: space-between;
+
     margin: 0 12px;
     padding: 12px;
     
@@ -77,7 +80,26 @@
     background-color: #333;
 }
 
-@media screen and (max-width: 1064px) {
+.footer-rights-links-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & * {
+        margin: 0 6px;
+    }
+}
+
+.footer-rights a {
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: #ff6f61;
+        scale: 1.05;
+    }
+}
+
+@media screen and (max-width: 1020px) {
     .footer-information {
         grid-template-columns: 1fr;
         
@@ -90,5 +112,15 @@
 
     #footer-links-list, #footer-contacts-list {
         margin-left: 0;
+    }
+
+    #footer-rights-reserved {
+        width: 100vw;
+
+        text-align: center;
+    }
+
+    .footer-rights-links-holder {
+        display: none;
     }
 }

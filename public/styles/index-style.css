@@ -28,3 +28,27 @@ main {
 
     background-color: #f0f0f0;
 }
+
+.info-section {
+    width: 98vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.info-section div {
+    width: 49vw;
+
+    background-color: antiquewhite;
+    transition: all 0.5s ease;
+}
+
+@media screen and (orientation: landscape) {
+    .info-section div {
+        height: 100vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    
+}

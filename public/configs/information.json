@@ -1,0 +1,79 @@
+{
+    "information": {
+        "name": "Akhlaque Alam",
+        "age": 15,
+        "skills": [
+            "programming",
+            "web development",
+            "designing"
+        ],
+        "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Python",
+            "Java",
+            "C++",
+            "C#"
+        ],
+        "frameworks": [
+            "Bootstrap",
+            "jQuery",
+            "React",
+            "Angular",
+            "Vue",
+            "Laravel",
+            "Django",
+            "Flask",
+            "Spring",
+            "ASP.NET"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "Firebase",
+            "SQLite",
+            "PostgreSQL",
+            "Oracle"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Sublime Text",
+            "Atom",
+            "NetBeans",
+            "Eclipse",
+            "IntelliJ IDEA",
+            "Android Studio",
+            "Xcode"
+        ],
+        "operating_systems": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "Android",
+            "iOS"
+        ],
+        "interests": [
+            "programming",
+            "web development",
+            "designing",
+            "nature",
+            "learning new things",
+            "reading books",
+            "playing games",
+            "watching movies",
+            "listening music",
+            "travelling"
+        ],
+        "social_media": {
+            "facebook": "https://www.facebook.com/akhlaque.alam.9",
+            "twitter": "https://twitter.com/akhlaquealam",
+            "instagram": "https://www.instagram.com/akhlaquealam/",
+            "linkedin": "https://www.linkedin.com/in/akhlaque-alam-0b7b3b1b4/",
+            "github": "https://www.github.com/touchgrass83"
+        }
+    }
+}
